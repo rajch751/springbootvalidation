@@ -1,0 +1,7 @@
+---
+applications:
+- name: spring-metadatfile-validation
+  domain: cfapps.io
+  instances: 2
+  env:
+   test.resources.static: Static folder contains files present in src/main/resources will be accessed directly and  need to specify at manifest.yml and will take from manifest file only

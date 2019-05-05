@@ -2,14 +2,11 @@ package com.example.validationdemo.serviceerror;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Objects;
-import java.util.stream.Collectors;
 
-import org.assertj.core.util.Arrays;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.validation.Errors;
-
+import com.example.validationdemo.serviceerror.*;
 @Component
 public class ValidationComponent {
 	
